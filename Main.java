@@ -14,5 +14,10 @@ public class Main
         Visitenkartendruck visitenkartendruck1 = new Visitenkartendruck(ma2, new Namensschilderdruck());
         visitenkartendruck1.drucken(ma2);
 
+        System.out.println("");
+        Mitarbeiter ma3 = new Mitarbeiter("Müller", "t.müller.at", EPosition.Abteilungsleiter);
+        Visitenkartendruck visitenkartendruck2 = new Visitenkartendruck(ma2, new Doppelrahmendruck());
+        visitenkartendruck2.drucken(ma2);
+
     }
 }
