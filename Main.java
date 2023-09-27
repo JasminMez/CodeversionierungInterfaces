@@ -15,8 +15,14 @@ public class Main
         visitenkartendruck1.drucken(ma2);
 
         System.out.println("");
+        logodruck
         IDruckbar logo = new Logodruck(ma2);
         logo.drucken(ma2);
+
+        Mitarbeiter ma3 = new Mitarbeiter("Müller", "t.müller.at", EPosition.Abteilungsleiter);
+        Visitenkartendruck visitenkartendruck2 = new Visitenkartendruck(ma2, new Doppelrahmendruck());
+        visitenkartendruck2.drucken(ma2);
+     
 
     }
 }
