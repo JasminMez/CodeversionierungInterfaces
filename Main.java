@@ -11,7 +11,7 @@ public class Main
 
         System.out.println("");
         Mitarbeiter ma2 = new Mitarbeiter("Hofer", "a.hofer@tsn.at", EPosition.CEO);
-        Visitenkartendruck visitenkartendruck1 = new Visitenkartendruck(ma2, new Namensschilderdruck());
+        Visitenkartendruck visitenkartendruck1 = new Visitenkartendruck(ma2, new vierZeilenDruck());
         visitenkartendruck1.drucken(ma2);
 
     }
