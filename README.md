@@ -1,4 +1,4 @@
-# Die folgenden Punkte wurden von:
+# Die folgenden Punkte wurden erarbeitet von:
 - Katharina Schimpfößl
 - Wechner Christopher
 - Jasmin MezeHausken
@@ -9,8 +9,7 @@ Bereits erledig
 ## Aufgabe 2
 Die GitHub-Flow-Branching-Strategie ist eine Methode um die Zusammenarbeit in gemeinsamen Programmierprojekten zu strukturieren und um
 ungewollten Codeverlust zu verhindern. Es gibt einen stabilen Haupt-Branch und jede neue Funktion wird in einem seperaten Branch entwickelt. Wenn dieses
-Feature fertig ist, wird ein Pull-Request gemacht. Wobei neue Änderungen am Code geprüft und diskutiert werden. Wenn der Code daraufhin bestätigt wird, kann dieser in den Remote-
-Main-Branch gemerged werden und der Feature-Branch wird danach gelöscht. Dieser Prozess wird für jedes neue Feature wiederholt.
+Feature fertig ist, wird ein Pull-Request gemacht. Neue Änderungen am Code geprüft und diskutiert werden. Wenn der Code daraufhin bestätigt wird, kann dieser in den Remote-Main-Branch gemerged werden und der Feature-Branch wird danach gelöscht. Dieser Prozess wird für jedes neue Feature wiederholt.
 
 ## Aufgabe 3
 Die GitHub-Flow-Branching-Strategie wurde von unserem Team bei dieser Aufgabe angewendet.Die vorhandene Codebasis wurde in Remote Master-Branch gepushed.
@@ -19,6 +18,6 @@ wurden im lokalen-Repository geadded, commited und dann in den Remote-Branch gep
 Master-Branch zu mergen. Die Konflikte wurden in diesem Schritt behoben und anschließend wurden die Branches zusammengeführt.
 
 ## Aufgabe 4
-- GitHub-Flow Vorteil: einfach und linear Nachteil: kein separater Branch für Hotfixes und Releases
-- Git-Flow Vorteil: für "Fixes" gibt es extra Branches Nachteil: komplexer und langsam für kleinere Teams
-- GitOps Vorteil: Automatisierung Nachteile: komplex einzurichten
+- GitHub-Flow        Vorteil: einfach und linear                               Nachteil: kein separater Branch für Hotfixes und Releases
+- Git-Flow           Vorteil: für "Fixes" gibt es extra Branches               Nachteil: komplexer und langsam für kleinere Teams
+- GitOps             Vorteil: Automatisierung                                  Nachteile: komplex einzurichten
