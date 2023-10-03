@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c7dd5d4-1df4-4cd8-9a71-01d5d3a3628f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Vy9WJ7NXSBqu7oqvjFves83Vhw" />
   <component name="ProjectViewState">
@@ -50,7 +55,9 @@
       <updated>1695797483032</updated>
       <workItem from="1695797484169" duration="4944000" />
       <workItem from="1695803219709" duration="604000" />
-      <workItem from="1695803841522" duration="124000" />
+      <workItem from="1695803841522" duration="720000" />
+      <workItem from="1695806794054" duration="233000" />
+      <workItem from="1696356374677" duration="931000" />
     </task>
     <servers />
   </component>

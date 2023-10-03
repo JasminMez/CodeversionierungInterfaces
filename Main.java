@@ -14,7 +14,7 @@ public class Main
         Visitenkartendruck visitenkartendruck1 = new Visitenkartendruck(ma2, new vierZeilenDruck());
         visitenkartendruck1.drucken(ma2);
 
-        System.out.println("")
+        System.out.println("");
         IDruckbar logo = new Logodruck(ma2);
         logo.drucken(ma2);
 
