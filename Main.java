@@ -11,13 +11,17 @@ public class Main
 
         System.out.println("");
         Mitarbeiter ma2 = new Mitarbeiter("Hofer", "a.hofer@tsn.at", EPosition.CEO);
-        Visitenkartendruck visitenkartendruck1 = new Visitenkartendruck(ma2, new Namensschilderdruck());
+        Visitenkartendruck visitenkartendruck1 = new Visitenkartendruck(ma2, new vierZeilenDruck());
         visitenkartendruck1.drucken(ma2);
 
-        System.out.println("");
+        System.out.println("")
+        IDruckbar logo = new Logodruck(ma2);
+        logo.drucken(ma2);
+
         Mitarbeiter ma3 = new Mitarbeiter("Müller", "t.müller.at", EPosition.Abteilungsleiter);
         Visitenkartendruck visitenkartendruck2 = new Visitenkartendruck(ma2, new Doppelrahmendruck());
         visitenkartendruck2.drucken(ma2);
+
 
     }
 }
