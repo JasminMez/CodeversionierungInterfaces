@@ -14,8 +14,7 @@ Main-Branch gemerged werden und der Feature-Branch wird danach gelöscht. Dieser
 
 ## Aufgabe 3
 Die GitHub-Flow-Branching-Strategie wurde von unserem Team bei dieser Aufgabe angewendet.Die vorhandene Codebasis wurde in Remote Master-Branch gepushed.
-Jedes Teammitglied hat den Code in seinem lokal ersteltes Git-Repository
-gepulled und anschließend den jeweiligen neuen Feature-Branch erstellt. In diesem wurden anschließend die individuellen Features codiert. Die neuen Dateien
+Jedes Teammitglied hat den Code in seinem lokal erstelten Git-Repository gepulled und anschließend den jeweiligen neuen Feature-Branch erstellt. In diesem wurden anschließend die individuellen Features codiert. Die neuen Dateien
 wurden im lokalen-Repository geadded, commited und dann in den Remote-Branch gepushed. Zum Schluss wurde ein Pull-Request im erstellten Branch gemacht, um diesen mit dem
 Master-Branch zu mergen. Die Konflikte wurden in diesem Schritt behoben und anschließend wurden die Branches zusammengeführt.
 
